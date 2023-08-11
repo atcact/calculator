@@ -3,16 +3,10 @@ import {
   ChakraProvider,
   Box,
   Text,
-  Link,
-  VStack,
-  Code,
-  Stack,
-  Input,
   Container,
   Grid,
   GridItem,
   theme,
-  Button, ButtonGroup
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 
@@ -100,22 +94,6 @@ function App() {
             _hover={{ bg: '#d7b4ed' }} borderRadius='6px' fontSize='40px' fontWeight='bold'> -
             </GridItem> 
           </Grid>
-          {/* <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack> */}
-          {/* <Button onClick={() => handleClick('0')} colorScheme='blue'>0</Button> */}
         </Grid>
       </Container>
       </Box>
